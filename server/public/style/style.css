@@ -1,0 +1,21 @@
+h1 {
+    color: blue;
+}
+
+main{
+   padding-left: 10px;
+   color: blue;
+}
+
+div::after {
+  content: "";
+  background: url(https://media.sezzle.com/branding/2.0/sezzle-og-image.jpg) no-repeat center center fixed;
+  background-size: cover;
+  opacity: .20;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}

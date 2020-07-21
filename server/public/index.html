@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="vendors/jquery-3.4.1.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <link rel="stylesheet" href="vendors/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1 align="center">Calculator</h1>
+    </div>
+
+
+    <main>
+        <div id="wrapper">
+            <input type="number" id="leftInput" placeholder="Enter First Number">
+            <button id="addButton" class="operationsButton">+</button>
+            <button id="subtractButton" class="operationsButton">-</button>
+            <button id="multiplyButton" class="operationsButton">*</button>
+            <button id="divideButton" class="operationsButton">/</button>
+            <input type="number" id="rightInput" placeholder="Enter Second Number">
+            <button id="clearButton" class="btn btn-warning">C</button>
+            <button id="equalButton" class="btn btn-primary">=</button>
+        </div>
+        <p>
+            <h3>History:</h3>
+        </p>
+
+        <p id="answerHistory">
+
+
+        </p>
+    </main>
+
+</body>
+
+</html>
